@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+.vercel/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Hardhat
+cache/
+artifacts/
+coverage/
+coverage.json
+typechain-types/
+
+# Deployments (keep structure but remove sensitive data)
+deployments/*/solcInputs/
+deployments/*/*.json
+
+# Testing
+.nyc_output/
+
+# Misc
+*.mp4
+*.png
+*.jpg
+*.jpeg
+screenshot-*
+视频/
+zama_template/
